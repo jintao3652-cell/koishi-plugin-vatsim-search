@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-vatsim-search",
-  "description": "查询VATSIM机组s信息（通过VATSIM-RADAR）",
-  "version": "0.0.5",
+  "description": "查询VATSIM机组信息，附带本地绘制的位置地图（多瓦片源）",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -12,7 +12,9 @@
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "vatsim",
+    "map"
   ],
   "peerDependencies": {
     "axios": "^1.8.4",
